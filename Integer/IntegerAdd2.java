@@ -2,7 +2,7 @@ package Integer;
 
 import java.util.Scanner;
 
-public class IntegerAdd1 {
+public class IntegerAdd2 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
 
@@ -11,16 +11,15 @@ public class IntegerAdd1 {
             int n = input.nextInt();
 
             /*
-             * 100 -> 999
+             * 10 -> 99
              * 100 -> 1
-             * 999 -> 9
-             * 123 -> 1
-             * 987 -> 912
              */
 
-            int n100 = n / 100;
+            int n2 = n % 10;
+            int n1 = n / 10;
+            int n12 = n1 + n2;
 
-            System.out.println("n100 = " + n100);
+            System.out.println("n2 = " + n2 + ", n1 = " + n1 + ", n12 = " + n12);
         }
     }
 
