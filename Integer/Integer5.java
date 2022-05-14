@@ -1,8 +1,8 @@
-package gita.foundation.problems_2;
+package Integer;
 
 import java.util.Scanner;
 
-public class integer_5 {
+public class Integer5 {
     public static void main(String[] args) {
         int a, b, n, c;
         Scanner input = new Scanner(System.in);
@@ -14,6 +14,7 @@ public class integer_5 {
         n = a / b;
         c = a - n * b;
 
-        System.out.println(a + " kesma ichiga " + b + " kesmadan " + n + " ta joylashtirish mumkin va " + c + " joy ortib qoladi");
+        System.out.println(
+                a + " kesma ichiga " + b + " kesmadan " + n + " ta joylashtirish mumkin va " + c + " joy ortib qoladi");
     }
 }

@@ -1,8 +1,8 @@
-package gita.foundation.problems_2;
+package Integer;
 
 import java.util.Scanner;
 
-public class integer_13 {
+public class Integer13 {
     public static void main(String[] args) {
         int a, a1, a10, a100, b;
         Scanner input = new Scanner(System.in);
@@ -17,6 +17,7 @@ public class integer_13 {
 
         b = a10 * 100 + a1 * 10 + a100;
 
-        System.out.println(a + " ning chapdan birinchi raqami o'chirilib o'ng tomonga yozilsa " + b + " soni hosil bo'ladi");
+        System.out.println(
+                a + " ning chapdan birinchi raqami o'chirilib o'ng tomonga yozilsa " + b + " soni hosil bo'ladi");
     }
 }

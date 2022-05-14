@@ -1,8 +1,8 @@
-package gita.foundation.problems_2;
+package Integer;
 
 import java.util.Scanner;
 
-public class integer_4 {
+public class Integer4 {
     public static void main(String[] args) {
         int a, b, n;
         Scanner input = new Scanner(System.in);

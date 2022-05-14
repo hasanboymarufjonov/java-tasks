@@ -1,8 +1,8 @@
-package gita.foundation.problems_2;
+package Integer;
 
 import java.util.Scanner;
 
-public class integer_15 {
+public class Integer15 {
     public static void main(String[] args) {
         int a, a1, a10, a100, b;
         Scanner input = new Scanner(System.in);
@@ -17,6 +17,6 @@ public class integer_15 {
 
         b = a10 * 100 + a100 * 10 + a1;
 
-        System.out.println(a + " -> " + b );
+        System.out.println(a + " -> " + b);
     }
 }

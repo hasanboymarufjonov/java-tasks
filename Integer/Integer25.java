@@ -1,10 +1,11 @@
-package gita.foundation.problems_2;
+package Integer;
 
 import java.util.Scanner;
 
-public class integer_25 {
+public class Integer25 {
     public static void main(String[] args) {
-        // 0 - yakshanba, 1 - dushanba, 2 - seshanba, 3 - chorshanba, 4 - payshanba, 5 - juma, 6 - shanba;
+        // 0 - yakshanba, 1 - dushanba, 2 - seshanba, 3 - chorshanba, 4 - payshanba, 5 -
+        // juma, 6 - shanba;
         int n, k, w;
         Scanner input = new Scanner(System.in);
         System.out.println("Kunni kiriting: ");
@@ -15,6 +16,7 @@ public class integer_25 {
         n = (k + w) % 7;
 
         System.out.println("Kiritilgan " + k + " chi kun haftaning " + n + " chi kuni");
-        System.out.println("0 - yakshanba, 1 - dushanba, 2 - seshanba, 3 - chorshanba, 4 - payshanba, 5 - juma, 6 - shanba");
+        System.out.println(
+                "0 - yakshanba, 1 - dushanba, 2 - seshanba, 3 - chorshanba, 4 - payshanba, 5 - juma, 6 - shanba");
     }
 }
