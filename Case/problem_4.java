@@ -1,4 +1,4 @@
-package gita.foundation.problems_5_0;
+package Case;
 
 import java.util.Scanner;
 
