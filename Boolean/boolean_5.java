@@ -1,4 +1,4 @@
-package gita.foundation.problems_3;
+package Boolean;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class boolean_5 {
         System.out.print("b = ");
         b = input.nextInt();
 
-        boolean result = a >=0 || b < -2;
+        boolean result = a >= 0 || b < -2;
 
         System.out.println(result);
     }

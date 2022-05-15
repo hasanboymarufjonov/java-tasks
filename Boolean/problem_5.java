@@ -1,4 +1,5 @@
-package gita.foundation.problems_3_1;
+
+package Boolean;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class problem_5 {
 
         boolean result;
 
-        result = a % 2 == 1 & b % 2 ==1;
+        result = a % 2 == 1 & b % 2 == 1;
         System.out.println(result);
     }
 }

@@ -1,4 +1,4 @@
-package gita.foundation.problems_3_1;
+package Boolean;
 
 import java.util.Scanner;
 

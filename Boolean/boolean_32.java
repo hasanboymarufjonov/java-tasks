@@ -1,4 +1,4 @@
-package gita.foundation.problems_3;
+package Boolean;
 
 import java.util.Scanner;
 
@@ -14,7 +14,9 @@ public class boolean_32 {
         System.out.print("c = ");
         c = input.nextInt();
 
-        boolean result = (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2)) || (Math.pow(b, 2) == Math.pow(a, 2) + Math.pow(c, 2)) || (Math.pow(a, 2) == Math.pow(c, 2) + Math.pow(b, 2));
+        boolean result = (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2))
+                || (Math.pow(b, 2) == Math.pow(a, 2) + Math.pow(c, 2))
+                || (Math.pow(a, 2) == Math.pow(c, 2) + Math.pow(b, 2));
 
         System.out.println(result);
     }

@@ -1,4 +1,4 @@
-package gita.foundation.problems_3_1;
+package Boolean;
 
 public class problem_1 {
     public static void main(String[] args) {
