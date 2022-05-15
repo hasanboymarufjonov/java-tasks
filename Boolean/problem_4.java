@@ -1,0 +1,16 @@
+package gita.foundation.problems_3_1;
+
+import java.util.Scanner;
+
+public class problem_4 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a;
+        a = input.nextInt();
+
+        boolean result;
+
+        result  = a % 2 == 0;
+        System.out.println(result);
+    }
+}
