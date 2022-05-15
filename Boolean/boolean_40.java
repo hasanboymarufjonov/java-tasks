@@ -1,4 +1,4 @@
-package gita.foundation.problems_3;
+package Boolean;
 
 import java.util.Scanner;
 
@@ -16,7 +16,8 @@ public class boolean_40 {
         System.out.print("y2 = ");
         y2 = input.nextInt();
 
-        boolean result = (Math.abs(x1 - x2) == 1 && Math.abs(y1 - y2) == 2) || (Math.abs(x1 - x2) == 2 && Math.abs(y1 - y2) == 1);
+        boolean result = (Math.abs(x1 - x2) == 1 && Math.abs(y1 - y2) == 2)
+                || (Math.abs(x1 - x2) == 2 && Math.abs(y1 - y2) == 1);
 
         System.out.println(result);
     }

@@ -1,4 +1,4 @@
-package B;
+package Boolean;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package gita.foundation.problems_3;
+package Boolean;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class boolean_21 {
         // 123
         a1 = a % 10; // 3
         a10 = a % 100 / 10; // 2
-        a100 = a /100; // 1
+        a100 = a / 100; // 1
 
         boolean result = a1 > a10 && a10 > a100;
 
