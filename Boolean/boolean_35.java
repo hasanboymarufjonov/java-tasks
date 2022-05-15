@@ -1,4 +1,4 @@
-package gita.foundation.problems_3;
+package Boolean;
 
 import java.util.Scanner;
 
@@ -16,7 +16,10 @@ public class boolean_35 {
         System.out.print("y2 = ");
         y2 = input.nextInt();
 
-        boolean result = (((x1 % 2 == 0 && y1 % 2 == 1) || (x1 % 2 == 1 && y1 % 2 == 0) && ((x2 % 2 == 0 && y2 % 2 == 1)) || (x2 % 2 == 1 && y2 % 2 == 0))) || (((x1 % 2 == 0 && y1 % 2 == 0) || (x1 % 2 == 1 && y1 % 2 == 1) && ((x2 % 2 == 0 && y2 % 2 == 0)) || (x2 % 2 == 1 && y2 % 2 == 1)));
+        boolean result = (((x1 % 2 == 0 && y1 % 2 == 1)
+                || (x1 % 2 == 1 && y1 % 2 == 0) && ((x2 % 2 == 0 && y2 % 2 == 1)) || (x2 % 2 == 1 && y2 % 2 == 0)))
+                || (((x1 % 2 == 0 && y1 % 2 == 0) || (x1 % 2 == 1 && y1 % 2 == 1) && ((x2 % 2 == 0 && y2 % 2 == 0))
+                        || (x2 % 2 == 1 && y2 % 2 == 1)));
 
         System.out.println(result);
     }
