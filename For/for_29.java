@@ -1,4 +1,4 @@
-package gita.foundation.problems_6;
+package For;
 
 import java.util.Scanner;
 
@@ -15,14 +15,14 @@ public class for_29 {
         x = (a + b) / n;
 
         for (int i = 0; i < n; i++) {
-         if (a > b) {
-             System.out.println(b);
-             b += x;
-         }
-         if (b > a) {
-             System.out.println(a);
-             a += x;
-         }
+            if (a > b) {
+                System.out.println(b);
+                b += x;
+            }
+            if (b > a) {
+                System.out.println(a);
+                a += x;
+            }
         }
     }
 }

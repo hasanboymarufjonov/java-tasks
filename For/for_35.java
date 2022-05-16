@@ -1,4 +1,4 @@
-package F;
+package For;
 
 import java.util.Scanner;
 
