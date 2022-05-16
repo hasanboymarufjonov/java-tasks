@@ -1,4 +1,4 @@
-package gita.foundation.problems_5;
+package Case;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class case_10 {
         char y = input.next().charAt(0);
         System.out.println("0: davom etish, 1: chap, 2: o'ng");
         int k = input.nextInt();
-
 
         switch (y) {
             case 's' -> {
@@ -26,13 +25,13 @@ public class case_10 {
                     default -> System.out.println("Janub");
                 }
             }
-            case  'q' -> {
+            case 'q' -> {
                 switch (k) {
                     case 1 -> System.out.println("Shimol");
                     case 2 -> System.out.println("Janub");
                     default -> System.out.println("Sharq");
                 }
-             }
+            }
             case 'g' -> {
                 switch (k) {
                     case 1 -> System.out.println("Janub");

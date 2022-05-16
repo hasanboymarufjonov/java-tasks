@@ -1,5 +1,4 @@
-package C
-;
+package Case;
 
 import java.util.Scanner;
 
