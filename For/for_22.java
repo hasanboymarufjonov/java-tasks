@@ -1,4 +1,4 @@
-package gita.foundation.problems_6;
+package For;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class for_22 {
         double n = input.nextDouble();
         double f = 1, d = 1, sum = 1;
         // f - faktorial, d - daraja
-
 
         for (int i = 1; i <= n; i++) {
 

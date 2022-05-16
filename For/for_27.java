@@ -1,4 +1,4 @@
-package gita.foundation.problems_6;
+package For;
 
 public class for_27 {
 }

@@ -1,4 +1,4 @@
-package gita.foundation.problems_6;
+package For;
 
 public class for_20 {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class for_20 {
 
         int a = 3;
 
-        for(i = 1; i <= a; i++){
+        for (i = 1; i <= a; i++) {
             f = f * i;
             b = b + f;
         }
