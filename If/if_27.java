@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -12,9 +12,9 @@ public class if_27 {
 
         if (x < 0) {
             x = 0;
-        } else if (x % 2 == 0){
+        } else if (x % 2 == 0) {
             x = 1;
-        } else if (x % 2 == 1){
+        } else if (x % 2 == 1) {
             x = -1;
         }
 

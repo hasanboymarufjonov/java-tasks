@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class if_11 {
             System.out.println("a = " + a);
             System.out.println("b = " + b);
 
-        } else if (b > a){
+        } else if (b > a) {
             a = b;
             System.out.println("a = " + a);
             System.out.println("b = " + b);

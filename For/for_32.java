@@ -1,11 +1,11 @@
-package gita.foundation.problems_6;
+package For;
 
 import java.util.Scanner;
 
 public class for_32 {
     public static void main(String[] args) {
         int n;
-        double ak,  an = 1;
+        double ak, an = 1;
 
         Scanner input = new Scanner(System.in);
 

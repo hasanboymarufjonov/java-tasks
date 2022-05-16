@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -12,14 +12,13 @@ public class if_28 {
 
         if (x % 4 == 0 && x % 100 == 0) {
             if (x % 400 == 0) {
-                    System.out.println("366");
-                } else {
-                    System.out.println("365");
-                }
-        } else if (x % 4 == 0 && x % 100 != 0){
+                System.out.println("366");
+            } else {
+                System.out.println("365");
+            }
+        } else if (x % 4 == 0 && x % 100 != 0) {
             System.out.println("366");
-        }
-        else {
+        } else {
             System.out.println("365");
         }
 

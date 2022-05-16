@@ -1,11 +1,11 @@
-package gita.foundation.problems_6;
+package For;
 
 import java.util.Scanner;
 
 public class for_34 {
     public static void main(String[] args) {
         int n;
-        double a1 = 1,  a2 = 2, ak;
+        double a1 = 1, a2 = 2, ak;
 
         Scanner input = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class for_34 {
 
         for (int i = 3; i < n; i++) {
 
-            ak = (a2 + 2 * a1) / 3 ;
+            ak = (a2 + 2 * a1) / 3;
 
             a1 = a2;
             a2 = ak;

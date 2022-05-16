@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -13,13 +13,13 @@ public class if_12 {
         a3 = input.nextInt();
 
         if (a1 > a2) {
-            if (a2 > a3){
+            if (a2 > a3) {
                 System.out.println(a3);
-            }else{
+            } else {
                 System.out.println(a2);
             }
-        }else if (a2 > a1){
-            if (a1 > a3){
+        } else if (a2 > a1) {
+            if (a1 > a3) {
                 System.out.println(a3);
             } else {
                 System.out.println(a1);

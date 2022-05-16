@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -12,8 +12,8 @@ public class if_19 {
         b = input.nextInt();
         c = input.nextInt();
         d = input.nextInt();
-// 1 2 1 1
-        if (a == b){
+        // 1 2 1 1
+        if (a == b) {
             if (b == c) {
                 System.out.println("4");
             } else {
@@ -22,8 +22,7 @@ public class if_19 {
         } else {
             if (b == c) {
                 System.out.println("1");
-            }
-            else {
+            } else {
                 System.out.println("2");
             }
         }

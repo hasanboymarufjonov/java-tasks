@@ -1,4 +1,4 @@
-package gita.foundation.problems_5;
+package Case;
 
 import java.util.Scanner;
 
@@ -10,8 +10,6 @@ public class case_11 {
         System.out.println("0: o'ng, 1: chap, 2: 180 burilish");
         int k = input.nextInt();
         int k2 = input.nextInt();
-
-
 
         switch (y) {
             case 's' -> {
@@ -44,7 +42,7 @@ public class case_11 {
                     default -> System.out.println("error");
                 }
             }
-            case 'j' -> {                       // 0: o'ng, 1: chap, 2: 180 burilish  janub g'arb
+            case 'j' -> { // 0: o'ng, 1: chap, 2: 180 burilish janub g'arb
                 switch (k) {
                     case 0 -> {
                         switch (k2) {
@@ -74,8 +72,9 @@ public class case_11 {
                     default -> System.out.println("error");
                 }
             }
-            case  'q' -> {
-                switch (k) {  // 0: o'ng, 1: chap, 2: 180 burilish  sharq janub g'arb | shimol -> sharq -> janub -> g'arb
+            case 'q' -> {
+                switch (k) { // 0: o'ng, 1: chap, 2: 180 burilish sharq janub g'arb | shimol -> sharq ->
+                             // janub -> g'arb
                     case 0 -> {
                         switch (k2) {
                             case 0 -> System.out.println("G'arb");
@@ -105,7 +104,8 @@ public class case_11 {
                 }
             }
             case 'g' -> {
-                switch (k) {  // 0: o'ng, 1: chap, 2: 180 burilish  sharq janub g'arb | shimol -> sharq -> janub -> g'arb
+                switch (k) { // 0: o'ng, 1: chap, 2: 180 burilish sharq janub g'arb | shimol -> sharq ->
+                             // janub -> g'arb
                     case 0 -> {
                         switch (k2) {
                             case 0 -> System.out.println("Sharq");

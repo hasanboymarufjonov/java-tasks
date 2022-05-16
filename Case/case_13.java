@@ -1,4 +1,4 @@
-package gita.foundation.problems_5;
+package Case;
 
 import java.util.Scanner;
 
@@ -12,28 +12,28 @@ public class case_13 {
         value = input.nextInt();
 
         switch (type) {
-            case 1 :
+            case 1:
                 a = value;
                 c = a * Math.sqrt(2);
                 h = c / 2;
                 s = c * h / 2;
                 System.out.println("c = " + c + " h = " + h + " s = " + s);
                 break;
-            case 2 :
+            case 2:
                 c = value;
                 a = c / Math.sqrt(2);
                 h = c / 2;
                 s = c * h / 2;
                 System.out.println("a = " + a + " h = " + h + " s = " + s);
                 break;
-            case 3 :
+            case 3:
                 h = value;
                 c = 2 * h;
                 a = c / Math.sqrt(2);
                 s = c * h / 2;
                 System.out.println("a = " + a + " c = " + c + " s = " + s);
                 break;
-            case 4 :
+            case 4:
                 s = value;
                 h = Math.sqrt(s);
                 c = 2 * h;

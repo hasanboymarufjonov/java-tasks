@@ -1,6 +1,7 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
+
 public class if_24 {
     public static void main(String[] args) {
         double x;
