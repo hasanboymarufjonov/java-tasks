@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class if_9 {
             b = a - b;
             a = a - b;
             System.out.println(a + " va " + b);
-        } else if(b > a) {
+        } else if (b > a) {
             System.out.println(a + " va " + b);
         }
     }

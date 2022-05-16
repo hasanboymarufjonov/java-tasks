@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -10,7 +10,6 @@ public class if_7 {
         System.out.println("Sonlarni kiriting: ");
         a1 = input.nextInt();
         a2 = input.nextInt();
-
 
         if (a1 > a2) {
             System.out.println("2");

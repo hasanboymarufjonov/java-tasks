@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class if_23 {
         System.out.print("y3 = ");
         y3 = input.nextInt();
 
-        if (x1 > 0 && y1 > 0 && x2 < 0 && y2 > 0 && x3 < 0 && y3 < 0 && y2 == y1 && Math.abs(x2) == Math.abs(x3)){
+        if (x1 > 0 && y1 > 0 && x2 < 0 && y2 > 0 && x3 < 0 && y3 < 0 && y2 == y1 && Math.abs(x2) == Math.abs(x3)) {
             x4 = x1;
             y4 = y3;
             System.out.println("x4 = " + x4 + ", y4 = " + y4);

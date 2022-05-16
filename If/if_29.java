@@ -1,4 +1,4 @@
-package gita.foundation.problems_4;
+package If;
 
 import java.util.Scanner;
 
@@ -10,13 +10,13 @@ public class if_29 {
         System.out.print("Son = ");
         x = input.nextInt();
 
-        if (x > 0 && x % 2 == 1){
+        if (x > 0 && x % 2 == 1) {
             System.out.println("Musbat, toq son");
-        } else if (x > 0 && x % 2 == 0){
+        } else if (x > 0 && x % 2 == 0) {
             System.out.println("Musbat, juft son");
-        } else if (x < 0 && x % 2 == 1){
+        } else if (x < 0 && x % 2 == 1) {
             System.out.println("Manfiy, toq son");
-        } else if (x < 0 && x % 2 == 0){
+        } else if (x < 0 && x % 2 == 0) {
             System.out.println("Manfiy, juft son");
         }
     }
