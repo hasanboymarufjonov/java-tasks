@@ -2,13 +2,17 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class boolean_3 {
+public class Boolean9 {
     public static void main(String[] args) {
-        int a;
+        int a, b;
         Scanner input = new Scanner(System.in);
-        a = input.nextInt();
 
-        boolean result = a % 2 == 0;
+        System.out.print("a = ");
+        a = input.nextInt();
+        System.out.print("b = ");
+        b = input.nextInt();
+
+        boolean result = a % 2 == 1 || b % 2 == 1;
 
         System.out.println(result);
     }

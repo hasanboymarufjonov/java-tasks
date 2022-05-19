@@ -2,7 +2,7 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class boolean_9 {
+public class Boolean11 {
     public static void main(String[] args) {
         int a, b;
         Scanner input = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class boolean_9 {
         System.out.print("b = ");
         b = input.nextInt();
 
-        boolean result = a % 2 == 1 || b % 2 == 1;
+        boolean result = (a % 2 == 1 && b % 2 == 1) || (a % 2 == 0 && b % 2 == 0);
 
         System.out.println(result);
     }

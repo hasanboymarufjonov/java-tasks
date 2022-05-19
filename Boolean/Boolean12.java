@@ -2,7 +2,7 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class boolean_15 {
+public class Boolean12 {
     public static void main(String[] args) {
         int a, b, c;
         Scanner input = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class boolean_15 {
         System.out.print("c = ");
         c = input.nextInt();
 
-        boolean result = (a > 0 && b > 0 && c < 0) || (a < 0 && b > 0 && c > 0) || (a > 0 && b < 0 && c > 0);
+        boolean result = a > 0 && b > 0 && c > 0;
 
         System.out.println(result);
     }

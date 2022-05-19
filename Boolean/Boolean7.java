@@ -2,7 +2,7 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class boolean_7 {
+public class Boolean7 {
     public static void main(String[] args) {
         int a, b, c;
         Scanner input = new Scanner(System.in);
