@@ -1,9 +1,8 @@
-
 package Boolean;
 
 import java.util.Scanner;
 
-public class problem_5 {
+public class BooleanAdd6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a, b;
@@ -12,7 +11,7 @@ public class problem_5 {
 
         boolean result;
 
-        result = a % 2 == 1 & b % 2 == 1;
+        result = a % 2 == 1 & b % 2 == 0 || a % 2 == 0 & b % 2 == 1;
         System.out.println(result);
     }
 }

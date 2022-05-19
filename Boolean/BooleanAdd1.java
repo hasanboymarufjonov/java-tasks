@@ -1,6 +1,6 @@
 package Boolean;
 
-public class problem_1 {
+public class BooleanAdd1 {
     public static void main(String[] args) {
         boolean a, b, c, d, result;
         a = true;

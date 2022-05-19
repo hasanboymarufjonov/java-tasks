@@ -2,16 +2,18 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class problem_3 {
+public class BooleanAdd8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int a, b;
-        a = input.nextInt();
-        b = input.nextInt();
+        double a, b, c;
+        a = input.nextDouble();
+        b = input.nextDouble();
+        c = input.nextDouble();
 
         boolean result;
 
-        result = a > 0 & b < 0 || a < 0 & b > 0;
+        result = a + b > c & b + c > a & a + c > b;
+
         System.out.println(result);
     }
 }

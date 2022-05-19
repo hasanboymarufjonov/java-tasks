@@ -2,17 +2,16 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class problem_7 {
+public class BooleanAdd3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double a, b, c;
-        a = input.nextDouble();
-        b = input.nextDouble();
-        c = input.nextDouble();
+        int a, b;
+        a = input.nextInt();
+        b = input.nextInt();
 
         boolean result;
 
-        result = c * c == a * a + b * b;
+        result = a > 0 & b < 0 || a < 0 & b > 0;
         System.out.println(result);
     }
 }

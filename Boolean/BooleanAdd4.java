@@ -2,18 +2,15 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class problem_8 {
+public class BooleanAdd4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double a, b, c;
-        a = input.nextDouble();
-        b = input.nextDouble();
-        c = input.nextDouble();
+        int a;
+        a = input.nextInt();
 
         boolean result;
 
-        result = a + b > c & b + c > a & a + c > b;
-
+        result = a % 2 == 0;
         System.out.println(result);
     }
 }
