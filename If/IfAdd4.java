@@ -1,6 +1,7 @@
 package If;
 
 import java.util.Scanner;
+import java.util.function.Function;
 
 public class IfAdd4 {
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class IfAdd4 {
                 System.out.println("a > b > c tengsizlikni qanoatlantirmaydi");
             }
         }
+
     }
 
 }
