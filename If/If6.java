@@ -2,7 +2,7 @@ package If;
 
 import java.util.Scanner;
 
-public class if_6 {
+public class If6 {
     public static void main(String[] args) {
         int a1, a2;
         Scanner input = new Scanner(System.in);
