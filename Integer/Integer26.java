@@ -13,7 +13,7 @@ public class Integer26 {
         System.out.println("Yil qaysi kundan boshlanadi?");
         System.out.println("yakshanba: -1, dushanba: 0, seshanba: 1, chorshanba: 2, payshanba: 3, juma: 4, shanba: 5");
         w = input.nextInt();
-        n = (k + w) % 7;
+        n = k % 7 + 1;
 
         System.out.println("Kiritilgan " + k + " chi kun haftaning " + n + " chi kuni");
         System.out.println(
