@@ -2,7 +2,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class problem_2 {
+public class CaseAdd2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Oy raqami = ");

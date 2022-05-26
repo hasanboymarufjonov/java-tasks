@@ -2,7 +2,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class case_16 {
+public class Case16 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int age = input.nextInt();

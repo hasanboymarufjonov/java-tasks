@@ -2,7 +2,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class case_5 {
+public class Case5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

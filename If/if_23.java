@@ -24,6 +24,8 @@ public class if_23 {
             x4 = x1;
             y4 = y3;
             System.out.println("x4 = " + x4 + ", y4 = " + y4);
+        } else {
+            System.out.println("it didn't work");
         }
 
     }
