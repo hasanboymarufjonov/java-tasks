@@ -1,6 +1,6 @@
 package For;
 
-public class for_1 {
+public class For1 {
     public static void main(String[] args) {
         int k = 8, n = 9, i;
 
