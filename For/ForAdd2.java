@@ -9,7 +9,7 @@ public class ForAdd2 {
 
     public static void input(int N) {
         int count = 0;
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i < N; i++) {
             if (N % i == 0) {
 
                 count += i;
