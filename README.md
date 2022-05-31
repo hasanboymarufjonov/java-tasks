@@ -1,2 +1,2 @@
 # java-tasks
-Basics of Java - Bootcamp
+Qudrat Abdurahimov's book: Basics of Java - problems solutions
