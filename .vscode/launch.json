@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch While5",
+      "request": "launch",
+      "mainClass": "While.While5",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While4",
+      "request": "launch",
+      "mainClass": "While.While4",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch While3",
       "request": "launch",
       "mainClass": "While.While3",
