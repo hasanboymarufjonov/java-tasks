@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch While3",
+      "request": "launch",
+      "mainClass": "While.While3",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While15",
+      "request": "launch",
+      "mainClass": "While.While15",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While15",
+      "request": "launch",
+      "mainClass": "Lesson10.While15",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Example1",
       "request": "launch",
       "mainClass": "Lesson10.Example1",
