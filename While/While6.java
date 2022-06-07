@@ -4,11 +4,12 @@ import javax.swing.plaf.TreeUI;
 
 public class While6 {
     public static void main(String[] args) {
-        int n = 67;
+        int sum = 1;
+        int n = 22;
         while (n > 0) {
-            n *= n;
+            sum *= n;
             n -= 2;
         }
-        System.out.println(n);
+        System.out.println(sum);
     }
 }

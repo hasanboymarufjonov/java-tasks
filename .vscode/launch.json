@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch While10",
+      "request": "launch",
+      "mainClass": "While.While10",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While9",
+      "request": "launch",
+      "mainClass": "While.While9",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While8",
+      "request": "launch",
+      "mainClass": "While.While8",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While7",
+      "request": "launch",
+      "mainClass": "While.While7",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch While6",
       "request": "launch",
       "mainClass": "While.While6",
