@@ -1,6 +1,6 @@
 package While;
 
-public class While11 {
+public class While14 {
     public static void main(String[] args) {
         int i = 1;
 
@@ -8,11 +8,11 @@ public class While11 {
 
         int n = 50;
 
-        while (sum < n) {
-            sum += i;
+        while (sum <= n) {
+            sum += 1 / i;
             i++;
         }
 
-        System.out.println(i);
+        System.out.println(i - 1);
     }
 }
