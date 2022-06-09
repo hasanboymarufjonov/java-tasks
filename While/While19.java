@@ -1,14 +1,15 @@
 package While;
 
-public class While18 {
-
+public class While19 {
     public static void main(String[] args) {
-        int a = 2145;
+        int a = 145;
+        int sum = 0;
 
         while (a > 0) {
-            System.out.print(a % 10);
+            sum += a % 10;
             a /= 10;
         }
 
+        System.out.println(sum);
     }
 }

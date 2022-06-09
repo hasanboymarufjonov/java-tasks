@@ -1,7 +1,5 @@
 package While;
 
-import javax.swing.plaf.TreeUI;
-
 public class While6 {
     public static void main(String[] args) {
         int sum = 1;

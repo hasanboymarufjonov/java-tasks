@@ -6,6 +6,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch While30",
+      "request": "launch",
+      "mainClass": "While.While30",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While29",
+      "request": "launch",
+      "mainClass": "While.While29",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While28",
+      "request": "launch",
+      "mainClass": "While.While28",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While27",
+      "request": "launch",
+      "mainClass": "While.While27",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While26",
+      "request": "launch",
+      "mainClass": "While.While26",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While25",
+      "request": "launch",
+      "mainClass": "While.While25",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While23",
+      "request": "launch",
+      "mainClass": "While.While23",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While22",
+      "request": "launch",
+      "mainClass": "While.While22",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While21",
+      "request": "launch",
+      "mainClass": "While.While21",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While20",
+      "request": "launch",
+      "mainClass": "While.While20",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While19",
+      "request": "launch",
+      "mainClass": "While.While19",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch While18",
+      "request": "launch",
+      "mainClass": "While.While18",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch While17",
       "request": "launch",
       "mainClass": "While.While17",
