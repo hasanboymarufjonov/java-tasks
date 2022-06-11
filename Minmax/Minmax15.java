@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Minmax15 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
-            int maxIndex = 0;
+            int maxIndex = 1;
             System.out.println("b = ");
             int b = input.nextInt();
             System.out.println("c = ");
@@ -18,7 +18,9 @@ public class Minmax15 {
                 int number = input.nextInt();
 
                 if (number > b && number < c) {
+
                     maxIndex = i;
+
                 }
 
             }

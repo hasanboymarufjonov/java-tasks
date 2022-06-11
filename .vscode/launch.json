@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Answer3",
+      "request": "launch",
+      "mainClass": "Exam1.Answer3",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Answer4",
+      "request": "launch",
+      "mainClass": "Exam1.Answer4",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Answer5",
+      "request": "launch",
+      "mainClass": "Exam1.Answer5",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Answer2",
+      "request": "launch",
+      "mainClass": "Exam1.Answer2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Answer1",
+      "request": "launch",
+      "mainClass": "Exam1.Answer1",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax19",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax19",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax18",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax18",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax17",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax17",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch MInmax16",
+      "request": "launch",
+      "mainClass": "Minmax.MInmax16",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Minmax15",
       "request": "launch",
       "mainClass": "Minmax.Minmax15",
