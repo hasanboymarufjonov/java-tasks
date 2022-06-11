@@ -2,7 +2,7 @@ package Minmax;
 
 import java.util.Scanner;
 
-public class Minmax5 {
+public class Minmax3 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int max = Integer.MIN_VALUE, n, k = 0;
@@ -12,20 +12,20 @@ public class Minmax5 {
 
             for (int i = 1; i <= n; i++) {
 
-                System.out.print("m" + i + " = ");
-                int m = input.nextInt();
-                System.out.print("V" + i + " = ");
-                int V = input.nextInt();
+                System.out.print("a" + i + " = ");
+                int a = input.nextInt();
+                System.out.print("b" + i + " = ");
+                int b = input.nextInt();
 
-                int D = m / V;
+                int p = 2 * (a + b);
 
-                if (D > max) {
-                    max = D;
+                if (p > max) {
+                    max = p;
                     k = i;
                 }
 
             }
-            System.out.println(k + " - density is maximal: " + max);
+            System.out.println(k + " - rectangle perimeter is maximal: " + max);
 
         }
 

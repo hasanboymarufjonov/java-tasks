@@ -6,6 +6,125 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Minmax15",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax15",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax14",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax14",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax13",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax13",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax12",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax12",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax11",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax11",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax10",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax10",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax9",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax9",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax8",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax8",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax7",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax7",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax6",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax6",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax5",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax5",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax4",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax4",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax3",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax3",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax2",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax1Method2",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax1Method2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax1",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax1",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple7",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple7",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch While30",
       "request": "launch",
       "mainClass": "While.While30",
