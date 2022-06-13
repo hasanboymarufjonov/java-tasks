@@ -2,7 +2,7 @@ package Minmax;
 
 import java.util.Scanner;
 
-public class Minmax19 {
+public class Minmax30 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             System.out.print("n = ");
@@ -15,7 +15,7 @@ public class Minmax19 {
                 int an = input.nextInt();
                 if (a == an)
                     count++;
-                else if (a > an) {
+                else if (a < an) {
                     a = an;
                     count = 1;
                 }

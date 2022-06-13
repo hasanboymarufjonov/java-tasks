@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Case20Method2",
+      "request": "launch",
+      "mainClass": "Case.Case20Method2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax23",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax23",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax22",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax22",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax21",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax21",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Minmax20",
+      "request": "launch",
+      "mainClass": "Minmax.Minmax20",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Answer3",
       "request": "launch",
       "mainClass": "Exam1.Answer3",
