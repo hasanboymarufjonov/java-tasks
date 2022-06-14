@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch FunSimple17",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple17",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Case20Method2",
       "request": "launch",
       "mainClass": "Case.Case20Method2",
