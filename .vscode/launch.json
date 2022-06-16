@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch FunSimple4",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple4",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple3",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple3",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple2",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple1",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple1",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch FunSimple17",
       "request": "launch",
       "mainClass": "FunSimple.FunSimple17",
