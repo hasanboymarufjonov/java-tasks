@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Array18",
+      "request": "launch",
+      "mainClass": "Lesson17.Array18",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch FunSimple4",
       "request": "launch",
       "mainClass": "FunSimple.FunSimple4",
