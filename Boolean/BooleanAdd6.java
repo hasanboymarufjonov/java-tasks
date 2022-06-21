@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class BooleanAdd6 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int a, b;
-        a = input.nextInt();
-        b = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            int a, b;
+            a = input.nextInt();
+            b = input.nextInt();
 
-        boolean result;
+            boolean result;
 
-        result = a % 2 == 1 & b % 2 == 0 || a % 2 == 0 & b % 2 == 1;
-        System.out.println(result);
+            result = a % 2 == 1 & b % 2 == 0 || a % 2 == 0 & b % 2 == 1;
+            System.out.println(result);
+        }
     }
 }

@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class boolean_20 {
     public static void main(String[] args) {
         int a, a1, a10, a100;
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("a = ");
-        a = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.print("a = ");
+            a = input.nextInt();
+        }
 
         a1 = a % 10;
         a10 = a % 100 / 10;
