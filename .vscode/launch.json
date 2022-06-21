@@ -6,6 +6,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch FunSimple9",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple9",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple8",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple8",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array16",
+      "request": "launch",
+      "mainClass": "Array.Array16",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array15",
+      "request": "launch",
+      "mainClass": "Array.Array15",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array14",
+      "request": "launch",
+      "mainClass": "Array.Array14",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array8",
+      "request": "launch",
+      "mainClass": "Array.Array8",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array7",
+      "request": "launch",
+      "mainClass": "Array.Array7",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array6",
+      "request": "launch",
+      "mainClass": "Array.Array6",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array5",
+      "request": "launch",
+      "mainClass": "Array.Array5",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array4",
+      "request": "launch",
+      "mainClass": "Array.Array4",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array3",
+      "request": "launch",
+      "mainClass": "Array.Array3",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array2",
+      "request": "launch",
+      "mainClass": "Array.Array2",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array1",
+      "request": "launch",
+      "mainClass": "Array.Array1",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Array18",
       "request": "launch",
       "mainClass": "Lesson17.Array18",
