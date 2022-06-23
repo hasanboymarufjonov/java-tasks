@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Array85",
+      "request": "launch",
+      "mainClass": "Lesson18.Array85",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array20",
+      "request": "launch",
+      "mainClass": "Array.Array20",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array19",
+      "request": "launch",
+      "mainClass": "Array.Array19",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array18",
+      "request": "launch",
+      "mainClass": "Array.Array18",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch FunSimple11",
+      "request": "launch",
+      "mainClass": "FunSimple.FunSimple11",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch FunSimple9",
       "request": "launch",
       "mainClass": "FunSimple.FunSimple9",
