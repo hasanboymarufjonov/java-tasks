@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class if_10 {
     public static void main(String[] args) {
         int a, b;
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Sonlarni kiriting: ");
-        a = input.nextInt();
-        b = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Sonlarni kiriting: ");
+            a = input.nextInt();
+            b = input.nextInt();
+        }
 
         if (a != b) {
             a = a + b;

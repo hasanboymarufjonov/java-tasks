@@ -6,11 +6,11 @@ public class for_30 {
     public static void main(String[] args) {
         double a, b, n, x;
 
-        Scanner input = new Scanner(System.in);
-
-        a = input.nextDouble();
-        b = input.nextDouble();
-        n = input.nextDouble();
+        try (Scanner input = new Scanner(System.in)) {
+            a = input.nextDouble();
+            b = input.nextDouble();
+            n = input.nextDouble();
+        }
 
         x = (a + b) / n;
 

@@ -1,7 +1,5 @@
 package Array;
 
-import Array.ArrayUtil;
-
 public class Array37 {
 
     public static void main(String[] args) {

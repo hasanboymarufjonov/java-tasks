@@ -7,7 +7,7 @@ public class FunSimple40 {
 
     static void exp(int a, double b) {
         double s;
-        int n;
+
         for (int i = 0; i <= 100; i++) {
             s = Math.pow(a, i) / (fact(i));
             if (s < b)

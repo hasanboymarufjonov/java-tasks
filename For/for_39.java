@@ -6,10 +6,10 @@ public class for_39 {
     public static void main(String[] args) {
         int a, b, s;
 
-        Scanner input = new Scanner(System.in);
-
-        a = input.nextInt();
-        b = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            a = input.nextInt();
+            b = input.nextInt();
+        }
 
         for (int i = 0; i < (a - b); i++) {
             for (int j = 0; j < i; j++) {

@@ -2,9 +2,9 @@ package Array;
 
 import java.util.Random;
 
-public class Array25 {
+public class Array24B {
     /*
-     * N ta elementda tashkil topgan massiv berilgan. Massiv elementlari geometrik
+     * N ta elementda tashkil topgan massiv berilgan. Massiv elementlari atifmetik
      * progressiyani tashkil qilsa ayirmani,
      * aks holda 0 ni chiqatuvchi programma tuzing
      */
@@ -13,7 +13,7 @@ public class Array25 {
     public static void main(String[] args) {
         int n = 10;
         int arr[] = new int[n];
-        System.out.println(GeometicProgression(arr));
+        System.out.println(AriphmeticProgression(arr));
     }
 
     public static void ArrayValue(int Array[]) {
@@ -24,11 +24,11 @@ public class Array25 {
         }
     }
 
-    public static int GeometicProgression(int Array[]) {
+    public static int AriphmeticProgression(int Array[]) {
 
         int d = Array[1] - Array[0];
         for (int i = 0; i < Array.length; i++) {
-            if ((Array[i + 1] / Array[i]) != d) {
+            if ((Array[i + 1] - Array[i]) != d) {
                 return 0;
             }
         }

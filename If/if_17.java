@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class if_17 {
     public static void main(String[] args) {
         int a, b, c;
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Sonlarni kiriting: ");
-        a = input.nextInt();
-        b = input.nextInt();
-        c = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Sonlarni kiriting: ");
+            a = input.nextInt();
+            b = input.nextInt();
+            c = input.nextInt();
+        }
 
         if (c > b && b > a || a > b && b > c) {
             a = 2 * a;

@@ -8,4 +8,8 @@ public class ForAdd4 {
 
         }
     }
+
+    public static void main(String[] args) {
+        input(1);
+    }
 }

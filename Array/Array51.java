@@ -1,7 +1,5 @@
 package Array;
 
-import Array.ArrayUtil;
-
 public class Array51 {
     public static void main(String[] args) {
         int[] array1 = ArrayUtil.generateRand(10);

@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Integer23 {
     public static void main(String[] args) {
         int ns, nm, nst, bs;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Kun boshidan boshlab qancha sekund o'tdi: ");
-        ns = input.nextInt();
-
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Kun boshidan boshlab qancha sekund o'tdi: ");
+            ns = input.nextInt();
+        }
         nst = ns / 3600;
         bs = ns - nst * 3600;
         nm = bs / 60;

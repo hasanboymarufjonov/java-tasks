@@ -18,7 +18,8 @@ public class Array23 {
 
             arr[i] = input.nextInt(100);
             sum += arr[i];
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + "\t");
+
         }
 
         for (int i = k; i <= l; i++) {

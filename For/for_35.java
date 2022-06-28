@@ -7,9 +7,9 @@ public class for_35 {
         int n;
         double a1 = 1, a2 = 1, a3 = 3, ak;
 
-        Scanner input = new Scanner(System.in);
-
-        n = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            n = input.nextInt();
+        }
 
         for (int i = 4; i < n; i++) {
 

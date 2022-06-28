@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class if_30 {
     public static void main(String[] args) {
         double x;
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Son = ");
-        x = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.print("Son = ");
+            x = input.nextInt();
+        }
 
         if (x >= 1 && x < 10 && x % 2 == 1) {
             System.out.println("Bir xonali, toq son");

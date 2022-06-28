@@ -1,7 +1,5 @@
 package Array;
 
-import Array.ArrayUtil;
-
 public class Array53 {
     public static void main(String[] args) {
         int n = 10;

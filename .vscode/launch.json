@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Array24B",
+      "request": "launch",
+      "mainClass": "Array.Array24B",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array23",
+      "request": "launch",
+      "mainClass": "Array.Array23",
+      "projectName": "java-tasks_611ff9e0"
+    },
+    {
+      "type": "java",
       "name": "Launch Array85",
       "request": "launch",
       "mainClass": "Lesson18.Array85",
